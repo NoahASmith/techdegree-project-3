@@ -1,3 +1,125 @@
 @charset "UTF-8";
 /* CSS Document */
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    
+    margin: 0 auto;
+    background: #f4f7f8;
+    
+}
+
+
+
+h1 {
+    padding: 25px;
+    margin-top: 0;
+    text-align: center;  
+    background: #52bab2;
+    color: white;
+    text-transform: uppercase;
+}
+
+form {
+    
+    max-width: 769px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+section {
+    margin: auto;
+    margin-bottom: 5px;
+    width: 90%;
+    border-bottom: 2px solid black;
+    border-bottom-width: thick;
+}
+
+section h2 {
+    text-align: center;
+    width: 85%;
+    font-size: 1.5em;
+    margin: auto;
+    font-weight: bold;
+}
+
+section p{
+    padding-top: 15px;
+    text-align: center;
+    width: 85%;
+    font-size: 1.15em;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+fieldset{
+   border: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+input::placeholder {
+    font-style: italic;
+    text-align: right;
+}
+
+.content {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: 90%;
+    border-top: 1px solid black;
+    border-top-width: thin;
+    border-bottom: 1px solid black;
+}
+
+legend{
+    margin-top: 30px;
+    font-size: 1.5em;
+ }
+
+label {
+    font-size: 1.29em;
+    color: #777;
+}
+
+#zipcode {
+    
+    width: 45%;
+    color: black;
+}
