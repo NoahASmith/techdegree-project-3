@@ -11,15 +11,14 @@ font-family: 'Open Sans Condensed', sans-serif;
 body {
     
     background: #f4f7f8;
-    margin: 0px;
-    width: 100%;
+    margin: 0;
 }
 
 
 
 h1 {
     padding: 25px;
-    margin-top: 0px;
+    margin-top: 0;
     text-align: center;  
     background: #2d3945;
     color: white;
@@ -27,7 +26,7 @@ h1 {
 }
 
 form {
-    width: 280px;
+    width: 100%;
     max-width: 769px;
     padding: 10px 20px;
     border-radius: 8px;
@@ -44,7 +43,7 @@ form label{
 section {
     margin: auto;
     margin-bottom: 5px;
-    width: 90%;
+    width: 100%;
     border-bottom: 2px solid #2d3945;
     border-bottom-width: thick;
 }
@@ -231,17 +230,23 @@ button {
         margin: auto;
     }
     .fix input {
-        width: 500px;
+        width: 450px;
+        margin-left: 15px;
+        margin-right: auto;
     }
     .fix select {
-        width: 500px;
+        width: 450px;
         height: 45px;
+        margin-left: 15px;
+        margin-right: auto;
     }
     .zipcode {
         width: 100%;
     }
     .zipcode input {
         width: 175px;
+        margin-left: 15px;
+        margin-right: auto;
     }
 
 }
