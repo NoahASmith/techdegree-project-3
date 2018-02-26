@@ -4,8 +4,11 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <title>The Code Review</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="wrapper">
@@ -23,23 +26,30 @@
         <form>
             <fieldset id="bot-bor">
                 <legend>Contact Information</legend>
-                <label for="name">Full name</label>
-                <input type="text" name="user-name" placeholder="Required" id="name"><br>
-
+            <div class="fix">
+                <label  for="name">Full name</label>
+                <input spellcheck="true" required type="text" name="user-name" placeholder="Required" id="name"><br>
+            </div>
+            <div class="fix">
                 <label for="email">Email Address</label>
-                <input type="email" name="user-email" placeholder="Required" id="email"><br>
-
+                <input required type="email" name="user-email" placeholder="Required" id="email"><br>
+            </div>
+            <div class="fix">
                 <label for="phone">Phone Number</label>
                 <input type="tel" name="user-number" id="phone"><br>
-
+            </div>
+            <div class="fix">
                 <label for="street">Street Address</label>
                 <input type="text" name="user-address" id="street"><br>
-
+            </div>
+            <div class="fix">
                 <label for="city">City</label>
-                <input type="text" name="user-city" id="city">
-
+                <input spellcheck="true" type="text" name="user-city" id="city">
+            </div>
+            <div class="fix">    
                 <label>State</label>
                 <select>
+                    <option value="" disabled>Choose a State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -92,11 +102,13 @@
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
                 </select>
-
+            </div>
+            <div class="fix zipcode">
                 <label for="zipcode">Zip Code</label>
                 <input name="user-zip" type="text" id="zipcode">
+            </div>
             </fieldset>
-            <fieldset class="item">
+            <fieldset class="news">
                 <legend>Newsletter</legend>
                 
                 <label class="space">Select the newsletter you would like to recieve</label>

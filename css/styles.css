@@ -11,7 +11,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 body {
     
     background: #f4f7f8;
-    margin: 0 auto;
+    margin: 0;
 }
 
 
@@ -32,7 +32,8 @@ form {
     border-radius: 8px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    
+    margin: 0 auto;
+    background-color: #aaa;
 }
 
 form label{
@@ -83,7 +84,7 @@ select {
     background: rgba(255,255,255,0.1);
     border: none;
     font-size: 16px;
-    height: auto;
+    height: 45px;
     outline: 0;
     padding: 15px;
     width: 100%;
@@ -129,10 +130,10 @@ legend{
 label {
     display: block;
     font-size: 1.29em;
-    color: #777;
+    color: #222;
 }
 
-#zipcode {
+.zipcode {
     width: 55%;
     color: black;
 }
@@ -141,6 +142,8 @@ label {
     border-bottom: 1px solid #2d3945;
     margin-bottom: 30px;
 }
+
+
 
 .space {
     margin-top: 15px;
@@ -180,7 +183,7 @@ button {
     
     
     form {
-        max-width: 769px;
+        max-width: 1024px;
     }
     
     input{
@@ -191,6 +194,10 @@ button {
         padding: 35px;
     }
     
+    option {
+        padding: 30px;
+    }
+    
     button{
         align-content: center;
         font-size: 1.25em;
@@ -199,4 +206,29 @@ button {
     label.text {
         display: inline;
     }
+    .fix {
+        display: flex;
+        flex-direction: row;
+    }
+    .fix label {
+        padding-top: 25px;
+        width: 150px;
+    }
+    .fix {
+        margin: auto;
+    }
+    .fix input {
+        width: 500px;
+    }
+    .fix select {
+        width: 500px;
+        height: 45px;
+    }
+    .zipcode {
+        width: 100%;
+    }
+    .zipcode input {
+        width: 175px;
+    }
+
 }
