@@ -38,9 +38,8 @@ form {
 
 #background {
     
-    background-color: #aaa;
+    background-color: rgba(45,57,69, .5);
 }
-
 form label{
     width: 100%;
 }
