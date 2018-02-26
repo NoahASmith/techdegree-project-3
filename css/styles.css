@@ -95,6 +95,10 @@ select {
     margin-top: 15px;
 }
 
+textarea {
+    height: 85px;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
     margin: 5px 4px 10px 0;
