@@ -19,22 +19,21 @@
         <p>Get the latest news on how your code is doing right in your inbox</p>
     </section>
     
-    <main class="forms content">
-        <legend>Contact Information</legend>
+    <main class="content">
         <form>
-            <fieldset>
-                <legend></legend>
+            <fieldset id="bot-bor">
+                <legend>Contact Information</legend>
                 <label for="name">Full name</label>
-                <input type="text" name="user-name" placeholder="Required" id="name">
+                <input type="text" name="user-name" placeholder="Required" id="name"><br>
 
                 <label for="email">Email Address</label>
-                <input type="email" name="user-email" placeholder="Required" id="email">
+                <input type="email" name="user-email" placeholder="Required" id="email"><br>
 
                 <label for="phone">Phone Number</label>
-                <input type="tel" name="user-number" id="phone">
+                <input type="tel" name="user-number" id="phone"><br>
 
                 <label for="street">Street Address</label>
-                <input type="text" name="user-address" id="street">
+                <input type="text" name="user-address" id="street"><br>
 
                 <label for="city">City</label>
                 <input type="text" name="user-city" id="city">
@@ -94,14 +93,41 @@
                     <option value="WY">Wyoming</option>
                 </select>
 
-                <label for="zipcode">Zip Code</label><br>
+                <label for="zipcode">Zip Code</label>
                 <input name="user-zip" type="text" id="zipcode">
             </fieldset>
-            
+            <fieldset class="item">
+                <legend>Newsletter</legend>
+                
+                <label class="space">Select the newsletter you would like to recieve</label>
+                
+                
+                <input name="user_newsletter" id="html" type="checkbox">
+                <label class="text" for="html">HTML News</label><br>
+                
+                <input name="user_newsletter" id="css" type="checkbox">
+                <label class="text" for="css">CSS News</label><br>
+                
+                <input name="user_newsletter" id="java" type="checkbox">
+                <label class="text" for="java" >Javascript News</label>
+                
+                
+                <label class="space">Newsletter format</label>
+                
+        <input type="radio" id="html-format" value="html-format" name="user_format">
+          <label for="html-format" class="text">HTML</label><br>
+        
+          <input type="radio" id="plain" value="plain" name="user_format">
+          <label for="plain" class="text">Plain text</label>
+                
+                <label class="space">Other topics you'd like to hear about</label>
+                <textarea></textarea>
+            </fieldset>
+            <button type="submit">Sign Up</button>
         </form>
-        <form>
-            
-        </form>
+        
+        <p id="copyright">Copyright The Code Review</p>
+        
     </main>
 </body>
 </html>
