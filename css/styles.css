@@ -33,6 +33,11 @@ form {
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin: 0 auto;
+    
+}
+
+#background {
+    
     background-color: #aaa;
 }
 
@@ -43,7 +48,7 @@ form label{
 section {
     margin: auto;
     margin-bottom: 5px;
-    width: 100%;
+    width: 90%;
     border-bottom: 2px solid #2d3945;
     border-bottom-width: thick;
 }
