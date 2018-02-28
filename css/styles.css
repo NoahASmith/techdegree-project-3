@@ -114,6 +114,7 @@ input[type="checkbox"] {
 input::placeholder {
     font-style: italic;
     text-align: right;
+    padding-right: 5px;
 }
 
 input:focus {
@@ -211,7 +212,7 @@ button {
     }
     
     option {
-        padding: 30px;
+        padding: 15px;
     }
     
     button{
@@ -227,7 +228,7 @@ button {
         flex-direction: row;
     }
     .fix label {
-        padding-top: 25px;
+        padding-top: 15px;
         width: 150px;
     }
     .fix {
